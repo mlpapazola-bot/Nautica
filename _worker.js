@@ -5,7 +5,7 @@ import { connect } from "cloudflare:sockets";
 // Variables
 const rootDomain = "nautica-965.workers.dev"; // Ganti dengan domain utama kalian
 const serviceName = "proxy"; // Ganti dengan nama workers kalian
-// Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "nautica@lampir.xyz"; // Ganti dengan email yang kalian gunakan
 const accountID = "9651bb19bee27ad2f2fe54fa11fdd239"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = "7902edf89e5e22512750cb7c585e3be7"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
